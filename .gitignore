@@ -216,3 +216,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+models/*
+!models/.gitkeep
+
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+.env
+.env.local
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+logs/
+*.log
+
+# FAISS index files (büyük olabilir)
+*.index
+*.faiss
+
